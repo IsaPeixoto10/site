@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Perfil do Usuário</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora Interativa</h1>
+
+        <div class="form-section">
+            <h2>Operações Matemáticas</h2>
+            <label>Número 1: <input type="number" id="num1"></label>
+            <label>Número 2: <input type="number" id="num2"></label>
+            <button onclick="somar()">Somar</button>
+            <button onclick="subtrair()">Subtrair</button>
+            <button onclick="multiplicar()">Multiplicar</button>
+            <button onclick="dividir()">Dividir</button>
+            <button onclick="verificarParOuImpar()">Par ou Ímpar</button>
+        </div>
+        
+        <div class="resultado" id="resultado">
+            <h2>Resultado</h2>
+            <p id="mensagem"></p>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
